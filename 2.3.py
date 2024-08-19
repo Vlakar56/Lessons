@@ -3,9 +3,11 @@ index = 0
 while index < len(my_list):
     numbers = my_list[index]
     index += 1
-    if numbers <= 0:
-        continue
-    print(numbers)
+    if numbers < 0:
+        break
+    if numbers > 0:
+        print(numbers)
+
 
 
 
